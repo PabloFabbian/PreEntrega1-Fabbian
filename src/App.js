@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+Componentes: 
+1 - Son funciones
+2 - Van en mayuscula
+3 - Todos tienen return
+4 - Siempre deben retornar un solo elemento
+*/
+
+import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Main from './components/Main';
 
 function App() {
+
+  //Vista
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Header />
+      <ItemListContainer greeting={'¡Bienvenidos!'} />
+      <Main />
+
+
+      <footer>
+        <p>Copyright &copy;</p>
+      </footer>
+    </>
   );
 }
 
