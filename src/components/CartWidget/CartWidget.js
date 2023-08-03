@@ -3,7 +3,7 @@ import cart from './assets/cart.png'
 
 function CartWidget() {
     return (
-        <div>
+        <div className='CartItems'>
             <img src={cart} alt='cart-widget' width={40}/>
             0
         </div>

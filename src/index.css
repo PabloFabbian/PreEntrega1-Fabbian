@@ -5,4 +5,31 @@ body{
 
 nav{
     text-align: center;
+    background-color: black;
+}
+
+.ButtonGroup{
+    padding-bottom: 20px;
+}
+
+.navbar h1{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.Project{
+    color: rgb(219, 44, 44);
+}
+
+.header{
+    background-color: rgb(145, 233, 204);
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.CartItems{
+    color: aliceblue;
+    padding-bottom: 20px;
 }
